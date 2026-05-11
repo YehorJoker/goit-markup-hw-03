@@ -2,14 +2,6 @@
     background-color: #f4f4fd;
 }
 
-.team-list {
-    list-style: none;
-}
-
-.team-card {
-    background-color: #ffffff;
-}
-
 .team-card .item-subtitle,
 .team-card .item-text {
     text-align: center;
@@ -19,4 +11,26 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+.section-title {
+    margin-bottom: 72px;
+}
+
+.team-card {
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-img {
+    display: block;
+}
+
+.team-card-content {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.team-card-content .item-subtitle {
+    margin-bottom: 8px;
 }

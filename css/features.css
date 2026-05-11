@@ -1,11 +1,12 @@
 .features-list {
-}
-
-.features-list li {
-}
-
-.features-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.features-item .item-subtitle {
+    margin-bottom: 8px;
 }
