@@ -1,0 +1,22 @@
+.team-bg {
+    background-color: #f4f4fd;
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-card {
+    background-color: #ffffff;
+}
+
+.team-card .item-subtitle,
+.team-card .item-text {
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}

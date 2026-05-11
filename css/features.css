@@ -1,0 +1,11 @@
+.features-list {
+}
+
+.features-list li {
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
